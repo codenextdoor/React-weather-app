@@ -1,5 +1,6 @@
 import React from "react";
 import Inputs from "./components/Inputs";
+import TemperatureAndDetails from "./components/TemperatureAndDetails";
 import TimeAndLocation from "./components/TimeAndLocation";
 import TopButtons from "./components/TopButtons";
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <TopButtons />
       <Inputs />
       <TimeAndLocation />
+      <TemperatureAndDetails />
     </div>
   );
 };
