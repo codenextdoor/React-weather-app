@@ -1,4 +1,5 @@
 import React from "react";
+import Forecast from "./components/Forecast";
 import Inputs from "./components/Inputs";
 import TemperatureAndDetails from "./components/TemperatureAndDetails";
 import TimeAndLocation from "./components/TimeAndLocation";
@@ -10,6 +11,7 @@ const App = () => {
       <Inputs />
       <TimeAndLocation />
       <TemperatureAndDetails />
+      <Forecast />
     </div>
   );
 };
