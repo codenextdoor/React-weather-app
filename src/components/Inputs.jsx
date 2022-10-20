@@ -78,7 +78,3 @@ function Inputs({ setQuery, units, setUnits }) {
 }
 
 export default Inputs;
-
-
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
